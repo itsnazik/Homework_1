@@ -1,8 +1,11 @@
 ﻿// Напишите программу, которая на вход принимает два числа и выдает, 
 // какое число больше, а какое меньше
 
-int a = 5;
-int b = 9;
+Console.WriteLine("Введите первое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите второе число: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
 int max;
 int min;
